@@ -1,4 +1,4 @@
-name: Deploy
+name: Deploy to EC2
 
 on:
   push:
@@ -10,14 +10,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
-
       - name: Deploy to EC2
         uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.HOST }}
-          username: ${{ secrets.USERNAME }}
+          username: ubuntu
           key: ${{ secrets.SSH_KEY }}
+          port: 22
           script: |
             cd /var/www/html/rkranjith79.github.io
             git pull origin main
