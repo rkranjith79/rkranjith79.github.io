@@ -11,4 +11,4 @@ I am a software developer
 - **About** – Learn more about me and my background
 - **Projects** – Explore the work I've done
 - **Blog** – Read my latest articles and thoughts
-- **Contact** – Get in touch with me
+- **Contact** – Get in touch with me new 
