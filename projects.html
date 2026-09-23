@@ -35,98 +35,142 @@
     <span class="eyebrow"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z"/><path d="M2 7h20"/></svg> the work section</span>
     <h1>Things I've <em>built</em>.</h1>
     <p class="lead">
-      A running log of the applications I've shipped — with little notes
-      scribbled in the margins about what each one taught me.
+      Work first, newest at the top. Weekend builds sit lower on the page —
+      each one opens on GitHub, like a hobby that happens to compile.
     </p>
   </div>
 
-  <div class="stats">
-    <div class="stat"><div class="num">6</div><div class="lbl">things shipped</div></div>
-    <div class="stat"><div class="num">3</div><div class="lbl">main stacks</div></div>
-    <div class="stat"><div class="num">2018</div><div class="lbl">project #1</div></div>
-    <div class="stat"><div class="num">low-code</div><div class="lbl">favourite build</div></div>
-  </div>
-
   <section>
-    <div class="grid cols-3">
+    <div class="sec-head">
+      <h2>Work log</h2>
+      <p class="sec-sub">recent first · currently at Mallow Technologies</p>
+    </div>
 
-      <div class="project-card featured">
-        <div class="proj-top">
-          <span class="proj-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z"/><path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65"/><path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65"/></svg></span>
-        </div>
-        <h3>Process Automation Tool</h3>
-        <span class="meta">Laravel · Livewire · Vue.js · MySQL</span>
-        <span class="meta sub">flagship build · Texila Educare · 2021 — 2024</span>
-        <p>A cloud-based low-code platform for building and deploying custom business applications. Drag-and-drop app building, deep customization, and workflow automation without extensive coding.</p>
-        <div class="tag-row"><span class="tag">Laravel</span><span class="tag">Livewire</span><span class="tag">Vue.js</span><span class="tag hot">flagship ✍</span></div>
-      </div>
+    <div class="exp">
 
-      <div class="project-card">
-        <div class="proj-top">
-          <span class="proj-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg></span>
+      <article class="exp-item now">
+        <h3>Mallow Technologies <span class="now-pill">now</span></h3>
+        <span class="when">2024 — present</span>
+        <p>PHP / Laravel work on product teams — search, ads, billing, and the quiet glue that keeps them talking to each other.</p>
+        <div class="work-list">
+          <div class="work-note">
+            <h4>Matrimony</h4>
+            <span class="meta">OpenSearch · Razorpay subscriptions</span>
+            <p>Match search on OpenSearch so profiles stay fast to find, plus Razorpay subscription plans for paid memberships, renewals, and plan changes.</p>
+            <div class="tag-row"><span class="tag">OpenSearch</span><span class="tag">Razorpay</span><span class="tag hot">current ✍</span></div>
+          </div>
+          <div class="work-note">
+            <h4>Kwickmetrics</h4>
+            <span class="meta">Amazon Ads · Walmart Ads</span>
+            <p>Seller-side advertising dashboards for Amazon Ads and Walmart Ads — campaigns, spend, and performance in one place instead of five browser tabs.</p>
+            <div class="tag-row"><span class="tag">Amazon Ads</span><span class="tag">Walmart Ads</span></div>
+          </div>
+          <div class="work-note">
+            <h4>Billing ERP</h4>
+            <span class="meta">Textile · invoices · GST</span>
+            <p>Billing ERP for textile trade — mill orders, invoices, GST, and the unit maths (metres, lots, shades) that generic billing apps skip.</p>
+            <div class="tag-row"><span class="tag">ERP</span><span class="tag">Textile</span><span class="tag">GST</span></div>
+          </div>
         </div>
-        <h3>Multi-vendor E-commerce</h3>
-        <span class="meta">PHP · Opencart · MySQL</span>
-        <span class="meta sub">full-stack build · Eron Techno · 2019</span>
-        <p>A multi-vendor marketplace system where many sellers manage their own catalogues under one storefront, with clean order and settlement flows.</p>
-        <div class="tag-row"><span class="tag">Opencart</span><span class="tag">PHP</span><span class="tag hot">marketplace</span></div>
-      </div>
+      </article>
 
-      <div class="project-card">
-        <div class="proj-top">
-          <span class="proj-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14a9 3 0 0 0 18 0V5"/><path d="M3 12a9 3 0 0 0 18 0"/></svg></span>
+      <article class="exp-item">
+        <h3>Texila Educare</h3>
+        <span class="when">2021 — 2024</span>
+        <p>Long stretch building a low-code platform so operations people could ship their own workflows.</p>
+        <div class="work-list">
+          <div class="work-note">
+            <h4>Process Automation Tool</h4>
+            <span class="meta">Laravel · Livewire · Vue.js · MySQL</span>
+            <p>A cloud low-code platform for custom business apps — drag-and-drop building, deep customization, and workflow automation without a full rewrite every time.</p>
+            <div class="tag-row"><span class="tag">Laravel</span><span class="tag">Livewire</span><span class="tag">Vue.js</span></div>
+          </div>
         </div>
-        <h3>CRM — RESTful API</h3>
-        <span class="meta">PHP · REST API</span>
-        <span class="meta sub">backend build · Eron Techno · 2020</span>
-        <p>Back-end API for a customer relationship management system — data services that keep the front-end fast and the integrations tidy.</p>
-        <div class="tag-row"><span class="tag">REST</span><span class="tag">PHP</span><span class="tag hot">backend heart</span></div>
-      </div>
+      </article>
 
-      <div class="project-card">
-        <div class="proj-top">
-          <span class="proj-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M10 9H8"/><path d="M16 13H8"/><path d="M16 17H8"/></svg></span>
+      <article class="exp-item">
+        <h3>Eron Techno</h3>
+        <span class="when">2018 — 2020</span>
+        <p>The first real jobs: marketplaces, APIs, billing, and a directory that taught me HTML the hard way.</p>
+        <div class="work-list">
+          <div class="work-note">
+            <h4>CRM — RESTful API</h4>
+            <span class="meta">PHP · REST · 2020</span>
+            <p>Back-end API for a CRM — tidy data services so the front-end stays fast and the integrations stay boring (in a good way).</p>
+            <div class="tag-row"><span class="tag">REST</span><span class="tag">PHP</span></div>
+          </div>
+          <div class="work-note">
+            <h4>Multi-vendor E-commerce</h4>
+            <span class="meta">PHP · Opencart · MySQL · 2019</span>
+            <p>A marketplace where many sellers keep their own catalogues under one storefront, with clean order and settlement flows.</p>
+            <div class="tag-row"><span class="tag">Opencart</span><span class="tag">PHP</span></div>
+          </div>
+          <div class="work-note">
+            <h4>GST Billing Application</h4>
+            <span class="meta">PHP · MySQL · 2019</span>
+            <p>Billing aligned with GST rules — invoices, tax computation, and a report trail accountants can actually use.</p>
+            <div class="tag-row"><span class="tag">Billing</span><span class="tag">GST</span></div>
+          </div>
+          <div class="work-note">
+            <h4>Directory Site — Hotel &amp; Real Estate</h4>
+            <span class="meta">PHP · HTML/CSS · JS · 2018</span>
+            <p>A business directory for hotels and listings, with searchable categories and layout built on standard HTML/CSS.</p>
+            <div class="tag-row"><span class="tag">Directory</span><span class="tag">HTML/CSS</span></div>
+          </div>
         </div>
-        <h3>GST Billing Application</h3>
-        <span class="meta">PHP · MySQL</span>
-        <span class="meta sub">app build · Eron Techno · 2019</span>
-        <p>A billing application aligned with GST rules — invoice generation, tax computation, and a report trail that keeps accountants calm.</p>
-        <div class="tag-row"><span class="tag">Billing</span><span class="tag">GST</span><span class="tag hot">accountant approved</span></div>
-      </div>
-
-      <div class="project-card">
-        <div class="proj-top">
-          <span class="proj-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect width="16" height="20" x="4" y="2" rx="2"/><path d="M9 22v-4h6v4"/><path d="M8 6h.01"/><path d="M16 6h.01"/><path d="M12 6h.01"/><path d="M12 10h.01"/><path d="M12 14h.01"/><path d="M16 10h.01"/><path d="M16 14h.01"/><path d="M8 10h.01"/><path d="M8 14h.01"/></svg></span>
-        </div>
-        <h3>Directory Site — Hotel &amp; Real Estate</h3>
-        <span class="meta">PHP · HTML/CSS · JS</span>
-        <span class="meta sub">first real launch · Eron Techno · 2018</span>
-        <p>A business directory for hotels and real estate listings, with searchable categories and layout built on standard HTML/CSS practices.</p>
-        <div class="tag-row"><span class="tag">Directory</span><span class="tag">HTML/CSS</span><span class="tag hot">first real launch</span></div>
-      </div>
-
-      <div class="project-card">
-        <div class="proj-top">
-          <span class="proj-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg></span>
-        </div>
-        <h3>This Notebook Portfolio</h3>
-        <span class="meta">HTML · CSS · hand-written fonts</span>
-        <span class="meta sub">pet project · Mallow Technologies era · 2026</span>
-        <p>The page you're reading — a static portfolio on grid paper. Because even serious software people like good stationery.</p>
-        <div class="tag-row"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag hot">on-brand</span></div>
-      </div>
+      </article>
 
     </div>
   </section>
 
   <section>
     <div class="sec-head">
-      <h2>Margin note</h2>
-      <p class="sec-sub">(a note from the work log)</p>
+      <h2>Weekend builds</h2>
+      <p class="sec-sub">personal / hobby · tap a card to open GitHub</p>
     </div>
-    <div class="card quote" style="max-width:720px;">
-      <p>The best application you can build is the one that automates someone's repetitive Tuesday. Everything else is just features.</p>
-      <div class="who">— me, after the Process Automation Tool</div>
+
+    <div class="grid cols-2">
+
+      <a class="hobby-item" href="https://github.com/rkranjith79/portfolio" target="_blank" rel="noopener noreferrer">
+        <div class="hobby-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg></div>
+        <div>
+          <h3>This notebook portfolio</h3>
+          <div class="meta">HTML · CSS · hand-written fonts</div>
+          <p>The page you're reading — a static site on grid paper. Because even serious software people like good stationery.</p>
+          <span class="gh-go"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg> open on GitHub</span>
+        </div>
+      </a>
+
+      <a class="hobby-item" href="https://github.com/rkranjith79/todo" target="_blank" rel="noopener noreferrer">
+        <div class="hobby-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg></div>
+        <div>
+          <h3>Todo</h3>
+          <div class="meta">Laravel · Blade</div>
+          <p>A small task list I keep around to try Laravel ideas without a product meeting attached.</p>
+          <span class="gh-go"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg> open on GitHub</span>
+        </div>
+      </a>
+
+      <a class="hobby-item" href="https://github.com/rkranjith79/economies" target="_blank" rel="noopener noreferrer">
+        <div class="hobby-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg></div>
+        <div>
+          <h3>Economies</h3>
+          <div class="meta">PHP</div>
+          <p>A weekend PHP experiment around numbers and lists — more sketchbook than startup.</p>
+          <span class="gh-go"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg> open on GitHub</span>
+        </div>
+      </a>
+
+      <a class="hobby-item" href="https://github.com/rkranjith79/sumanas" target="_blank" rel="noopener noreferrer">
+        <div class="hobby-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg></div>
+        <div>
+          <h3>Sumanas</h3>
+          <div class="meta">PHP</div>
+          <p>A personal PHP project parked on GitHub — the kind of thing I open when I want to tinker without a ticket.</p>
+          <span class="gh-go"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg> open on GitHub</span>
+        </div>
+      </a>
+
     </div>
   </section>
 
